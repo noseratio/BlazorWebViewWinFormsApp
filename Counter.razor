@@ -1,0 +1,22 @@
+﻿@namespace BlazorWebViewApp
+@using Microsoft.AspNetCore.Components.Web
+
+<h1>Counter</h1>
+
+<button @onclick="IncrementCount">Count: @currentCount</button>
+
+<hr>
+
+<label for="story">HTML label:</label><br>
+
+<textarea id="story" name="story" rows="5" cols="40">HTML textarea</textarea>
+<br>&nbsp;<br>
+<button onclick="story.focus()">Focus</button>
+
+<hr>
+
+@code {
+    int currentCount = 1;
+
+    void IncrementCount() => currentCount++;
+}
