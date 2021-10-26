@@ -40,11 +40,15 @@ namespace BlazorWebViewApp
             exitMenuItem.Click += (_, _) => this.Close();
             fileMenuItem.DropDownItems.Add(exitMenuItem);
 
-            var textBox = new TextBox();
-            textBox.Text = "Native TextBox";
-            textBox.TabStop = true;
-            textBox.TabIndex = 1;
-            textBox.Dock = DockStyle.Fill;
+            var textBox = new TextBox() 
+            {
+                Text = "Native TextBox",
+                TabStop = true,
+                Multiline = true,
+                TabIndex = 1,
+                Dock = DockStyle.Fill,
+            };
+
             this.tableLayoutPanel.Controls.Add(textBox);
             this.tableLayoutPanel.SetCellPosition(textBox,
                 new TableLayoutPanelCellPosition { Row = 0, Column = 0 });
