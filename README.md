@@ -11,8 +11,8 @@
 
 ## Problems
 
-- tabbing out of the native WinForms `TextBox` looses the focus
-- Some windows system accelerators (<s><kbd>Alt-F4</kbd></s>, <kbd>Alt-Space</kbd>) don't work when the focus is inside `BlazorWebView`
+- <s>tabbing out of the native WinForms `TextBox` looses the focus</s>
+- Some windows system accelerators (<kbd><s>Alt-F4</s></kbd>, <kbd>Alt-Space</kbd>) don't work when the focus is inside `BlazorWebView`
 - <s>the arrow keys don't work inside HTML `textarea` within `BlazorWebView`</s>
 - the native WinForms menu is not dismissed when the focus moves into `BlazorWebView` by clicking it:<br>
     ![BlazorWebView](https://i.stack.imgur.com/hWIP0m.png)
