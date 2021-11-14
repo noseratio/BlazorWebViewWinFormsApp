@@ -8,8 +8,8 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1020.30" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebView" Version="6.0.0-rc.2.21480.10" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebView.WindowsForms" Version="6.0.101-preview.9.1843" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebView" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebView.WindowsForms" Version="6.0.101-preview.10.2068" />
   </ItemGroup>
 
   <ItemGroup>
